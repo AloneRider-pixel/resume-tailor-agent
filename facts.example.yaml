@@ -1,0 +1,40 @@
+# SAMPLE facts file for a fictional person, Aditya Sharma.
+# Replace with your own verified facts. The agent may ONLY use what is in this file -
+# it will not invent employers, skills, dates, or numbers (enforced by app/guard.py).
+name: Aditya Sharma
+email: aditya.sharma@example.com
+phone: "+91-9000000000"
+location: Bengaluru, India
+summary_points:
+  - "Backend engineer with 2 years of experience building Python services."
+  - "Shipped a FastAPI service serving 200k requests/day."
+skills:
+  - Python
+  - FastAPI
+  - PostgreSQL
+  - Docker
+  - Redis
+  - AWS
+experience:
+  - company: Northwind Labs
+    role: Backend Engineer
+    start: "2024-01"
+    end: present
+    bullets:
+      - "Built a FastAPI order service handling 200k requests/day at 99.9% uptime."
+      - "Cut p95 API latency 35% by adding Redis caching for hot queries."
+      - "Led migration of 12 services to Docker, reducing deploy time from 40 to 12 minutes."
+  - company: DataKraft
+    role: Software Engineer Intern
+    start: "2023-06"
+    end: "2023-12"
+    bullets:
+      - "Automated ETL checks in Python, catching 30+ data-quality issues per week."
+education:
+  - degree: B.Tech, Computer Science
+    school: ABC Institute of Technology
+    year: 2023
+projects:
+  - name: Trailblazer
+    bullets:
+      - "Open-source route planner in Python with 400+ GitHub stars."
